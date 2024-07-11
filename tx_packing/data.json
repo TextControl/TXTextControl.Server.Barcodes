@@ -1,0 +1,89 @@
+[
+    {
+        "packing_slip_guid": "12345678-1234-1234-1234-123456789012",
+        "dispatch_date": "2024-01-01",
+        "recipient": {
+            "id": 1,
+            "name": "John Doe",
+            "company": "Company A",
+            "address": {
+                "street": "123 Main St",
+                "city": "Anytown",
+                "state": "CA",
+                "zip": "12345"
+            }
+        },
+        "product": {
+            "product_id": 1,
+            "name": "Product 1",
+            "qty": "Product 1 Description",
+            "code": "123456789012"
+        },
+        "items": [
+            {
+                "item_id": 1,
+                "name": "Item 1",
+                "description": "Description 1",
+                "quantity": 1,
+                "price": 100,
+                "upc": "12345678901"
+            },
+            {
+                "item_id": 2,
+                "name": "Item 2",
+                "description": "Description 2",
+                "quantity": 2,
+                "price": 200,
+                "upc": "12345678902"
+            },
+            {
+                "item_id": 3,
+                "name": "Item 3",
+                "description": "Description 3",
+                "quantity": 3,
+                "price": 300,
+                "upc": "12345678903"
+            },
+            {
+                "item_id": 4,
+                "name": "Item 4",
+                "description": "Description 4",
+                "quantity": 4,
+                "price": 400,
+                "upc": "12345678904"
+            },
+            {
+                "item_id": 5,
+                "name": "Item 5",
+                "description": "Description 5",
+                "quantity": 5,
+                "price": 500,
+                "upc": "12345678905"
+            },
+            {
+                "item_id": 6,
+                "name": "Item 6",
+                "description": "Description 6",
+                "quantity": 6,
+                "price": 600,
+                "upc": "12345678906"
+            },
+            {
+                "item_id": 7,
+                "name": "Item 7",
+                "description": "Description 7",
+                "quantity": 7,
+                "price": 700,
+                "upc": "12345678907"
+            },
+            {
+                "item_id": 8,
+                "name": "Item 8",
+                "description": "Description 8",
+                "quantity": 8,
+                "price": 800,
+                "upc": "12345678908"
+            }
+        ]
+    }
+]
