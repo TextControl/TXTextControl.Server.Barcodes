@@ -1,6 +1,8 @@
-﻿using TXTextControl.DocumentServer;
+﻿
+using TXTextControl;
+using TXTextControl.DocumentServer;
 
-using (TXTextControl.ServerTextControl tx = new TXTextControl.ServerTextControl())
+using (ServerTextControl tx = new ServerTextControl())
 {
 	tx.Create();
 	tx.Load("packing_slip.tx", TXTextControl.StreamType.InternalUnicodeFormat);
